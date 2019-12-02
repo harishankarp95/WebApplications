@@ -1,0 +1,10 @@
+CREATE TABLE users
+ ( 
+	username  CHAR(45) PRIMARY KEY NOT NULL, 
+ 	password  CHAR(45) NULL, 
+ 	firstname CHAR(45) NOT NULL, 
+ 	lastname  CHAR(45) NULL, 
+ 	email   CHAR(45) NULL, 
+ 	address   CHAR(45) NULL, 
+ 	phone    BIGINT NULL
+ );
