@@ -1,0 +1,27 @@
+
+  CREATE TABLE Employee(
+  id INT PRIMARY KEY,
+  name char(50),
+  salary BIGINT
+ )
+ 
+ 
+ Insert Data:-
+ ----------------
+ 
+ INSERT INTO Employee(id,name,salary) VALUES
+	(1,'Rakesh',12000),
+	(2,'Manoj',12000),
+	(3,'Jaga',12000),
+	(4,'Sakti',15000),
+	(5,'Subham',15000),
+	(6,'Manas',14000),
+	(7,'Pinu',10000),
+	(8,'Abhi',13000),
+	(9,'Munu',10000),
+	(10,'Banti',1000),
+	(11,'Hari',12000),
+	(12,'Manti',19000),
+	(13,'Khusbu',12000),
+	(14,'Pihu',14000),
+	(15,'Raj',13000)
