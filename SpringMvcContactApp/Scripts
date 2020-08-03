@@ -1,0 +1,27 @@
+Scripts:-
+
+CREATE TABLE AppUser(
+	userId integer serial PRIMARY KEY NOT NULL,
+	name VARCHAR (50),
+	phone VARCHAR (50) ,
+	email VARCHAR (50) ,
+	address VARCHAR (200) ,
+	loginName VARCHAR (50) UNIQUE NOT NULL,
+	password VARCHAR (50) ,
+	role integer NOT NULL DEFAULT 2,
+	loginStatus integer NOT NULL DEFAULT 1
+	);
+
+	
+CREATE TABLE Contact(
+	contactId serial PRIMARY KEY NOT NULL,
+	userId integer ,
+	name VARCHAR (50),
+	phone VARCHAR (50) ,
+	email VARCHAR (50) ,
+	address VARCHAR (200) ,
+	remark VARCHAR (150)
+	);
+
+-----------------------------------------------------
+
