@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{'/uploadPic/'+${id}}" method="post"
+		enctype="multipart/form-data">
+		<div>
+
+			<label>Photos: </label> <input type="file" name="image"
+				accept="image/png, image/jpeg" />
+
+		</div>
+		<button type="submit" class="btn btn-primary">Update Photo</button>
+	</form>
+</body>
+</html>
